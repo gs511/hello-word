@@ -8,7 +8,7 @@ def main():
 
 @app.route("/<int:number>")
 def numb(number):
-	return "square of your number is %i" %number^3
+	return "square of your number is {}".format(number)
 
 
 if __name__ == '__main__':
